@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# 🚌 Transporte Escolar App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil desarrollada con **React Native + Expo** como parte del bootcamp **React Native Zero to Hero**.
 
-## Get started
+## 📋 Descripción
 
-1. Install dependencies
+Esta aplicación simula un sistema de gestión de transporte escolar, mostrando información relevante de los estudiantes, rutas, conductores y vehículos mediante tarjetas visuales.
 
-   ```bash
-   npm install
-   ```
+El objetivo es aplicar los conceptos fundamentales de React Native como:
 
-2. Start the app
+- Core Components
+- Flexbox
+- Estilos
+- Renderizado de listas
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🎯 Funcionalidades
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 📄 Visualización de estudiantes en tarjetas
+- 🚌 Información de rutas asignadas
+- 👨‍✈️ Datos del conductor
+- 🚐 Información del vehículo
+- 🖼️ Imágenes representativas de cada estudiante
+- 🎨 Diseño moderno con estilos dinámicos por ruta
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tecnologías utilizadas
 
-When you're ready, run:
+- React Native
+- Expo
+- TypeScript
+- Flexbox
+- ScrollView
+- StyleSheet
+
+---
+
+## 📱 Vista previa
+
+La aplicación muestra:
+
+- Lista de estudiantes
+- Tarjetas con diseño moderno
+- Colores dinámicos según la ruta
+- Imágenes de perfil
+
+---
+
+## 📂 Estructura del proyecto
+
+
+react-native-3171599-santiago-rivera/
+│
+├── app/
+│ └── index.tsx # Pantalla principal
+│
+├── assets/ # Recursos (imágenes, iconos)
+├── components/ # Componentes reutilizables (futuro)
+├── constants/ # Configuraciones
+├── hooks/ # Hooks personalizados
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
+---
+
+## 🚀 Instalación y ejecución
+
+### 1. Clonar el proyecto
 
 ```bash
-npm run reset-project
-```
+git clone <tu-repo>
+cd react-native-3171599-santiago-rivera
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Semana 1 React Native
